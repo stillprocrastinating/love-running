@@ -88,7 +88,13 @@ main {
 }
 
 /* footer */
-
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
 
 /* responsive design */
 @media screen and (min-width: 768px) {

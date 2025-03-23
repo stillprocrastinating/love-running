@@ -46,6 +46,10 @@ h1 {
     list-style: none;
 }
 
+#menu li {
+    margin-bottom: 1em;
+}
+
 /* main */
 main {
     background-color: lightblue;

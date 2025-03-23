@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+/* body */
+body {
+    color: #3a3a3a;
+}
+
 /* header */
 header {
     background-color: lightcoral;

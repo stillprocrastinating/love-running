@@ -33,11 +33,17 @@ header a {
     color: inherit;
 }
 
-h1 { /* oops :P */
+h1 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style: none;
 }
 
 /* main */

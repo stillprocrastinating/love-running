@@ -33,7 +33,7 @@ header a {
     color: inherit;
 }
 
-h1 {
+h1 { /* oops :P */
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;

@@ -96,6 +96,12 @@ main {
     list-style: none;
 }
 
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
 /* responsive design */
 @media screen and (min-width: 768px) {
     /* header */

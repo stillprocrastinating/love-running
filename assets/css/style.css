@@ -204,6 +204,22 @@ hr {
         width: 300px;
         right: 50px;
     }
+
+    /* reasons */
+    #physical, #mental {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #physical > div, #mental > div {
+        width: 75%;
+    }
+
+    #mental > div {
+        text-align: end;
+        align-self: flex-end;
+    }
 }
 
 @media screen and (min-width: 992px) {

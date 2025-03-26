@@ -223,7 +223,35 @@ hr {
 }
 
 @media screen and (min-width: 992px) {
+    /* header */
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    /* reasons */
+    #benefits {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #benefits > div {
+        flex: 1;
+    }
+
+    #benefits-image {
+        order: 0;
+    }
+
+    #mental {
+        order: 1;
+    }
+    #mental > div {
+        align-self: flex-start;
+    }
+
+    #physical > div {
+        align-self: flex-end;
     }
 }

@@ -109,7 +109,7 @@ main {
 }
 
 /* reasons */
-#reasons section {
+#reasons {
     width: 90%;
     margin: 20px auto;
 }
@@ -120,7 +120,7 @@ main {
     margin-bottom: 20px;
 }
 
-#benefits div {
+#benefits div div {
     line-height: 20px;
     margin-bottom: 20px;
 }

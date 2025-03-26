@@ -86,6 +86,11 @@ main {
     margin-top: 47px;
 }
 
+hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
 /* hero */
 #hero {
     height: 600px;
@@ -123,11 +128,6 @@ main {
 #benefits div div {
     line-height: 20px;
     margin-bottom: 20px;
-}
-
-#benefits hr {
-    border-top: 1px solid #3a3a3a;
-    margin: 5px 0;
 }
 
 #benefits p {

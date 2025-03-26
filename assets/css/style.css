@@ -117,7 +117,7 @@ main {
 #reasons h2 {
     font-size: 280%;
     text-align: center;
-    margin: 0 auto 20px;
+    margin-bottom: 20px;
 }
 
 #benefits div {

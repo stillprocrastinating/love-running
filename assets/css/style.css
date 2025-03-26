@@ -95,7 +95,7 @@ hr {
 #hero {
     height: 600px;
     width: 100%;
-    background: url("../images/hero-image.webp") no-repeat center center/cover;
+    background: url("../images/hero-image.webp") no-repeat center center / cover;
     position: relative;
 }
 
@@ -135,7 +135,7 @@ hr {
 }
 
 #circle-cover-bg {
-    background: url(../images/reasons-image.webp) no-repeat top center/cover;
+    background: url(../images/reasons-image.webp) no-repeat top center / cover;
     width: 90vw;
     height: 90vw;
     margin-bottom: 20px;
@@ -148,6 +148,27 @@ hr {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* meetup */
+#times {
+    background: url(../images/dublin-city.webp) no-repeat center center / cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#times div {
+    color: #fafafa;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    text-align: center;
+    border: 2px solid white;
+    flex-basis: 200px;
+    flex-grow: 1;
+}
+
+#times h3 {
+    color: #fafafa;
 }
 
 /* footer */

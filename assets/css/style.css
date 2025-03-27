@@ -267,7 +267,6 @@ hr {
     /* gallery */
     #photos {
         column-count: 3;
-        column-gap: 0;
     }
 }
 
@@ -275,6 +274,11 @@ hr {
     /* header */
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
+    }
+
+    /* gallery */
+    #photos {
+        column-count: 4;
     }
 }
 

@@ -201,7 +201,8 @@ hr {
 }
 
 /* responsive design */
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 576px) { /* landscape phone */
+    /* gallery */
     #photos {
         column-count: 2; /* masonry (brickwork) image layout */
         column-gap: 0;
@@ -261,6 +262,12 @@ hr {
     #mental > div {
         text-align: end;
         align-self: flex-end;
+    }
+
+    /* gallery */
+    #photos {
+        column-count: 3;
+        column-gap: 0;
     }
 }
 

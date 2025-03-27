@@ -43,7 +43,52 @@
         </nav>
     </header>
     <main>
-        Main content
+        <section id="signup">
+            <form action="https://formdump.codeinstitute.net" method="post" id="signup-form">
+                <h2>
+                    [font awesome icon: heartbeat] Let's get you signed up!
+                </h2>
+                <label for="first-name">
+                    First Name
+                </label>
+                <input type="text" name="first-name" id="first-name" required class="text-input">
+                <br>
+                <label for="last-name">
+                    Last Name
+                </label>
+                <input type="text" name="last-name" id="last-name" required class="text-input">
+                <br>
+                <label for="email-address">
+                    Email Address
+                </label>
+                <input type="email" name="email-address" id="email-address" required class="text-input">
+                <br>
+                <div class="radio-buttons">
+                    <div>
+                        <label for="road">
+                            Road
+                        </label>
+                        <input type="radio" name="running-preference" id="road" value="road" checked required>
+                    </div>
+                    <div>
+                        <label for="trail">
+                            Trail
+                        </label>
+                        <input type="radio" name="running-preference" id="trail" value="trail">
+                    </div>
+                    <div>
+                        <label for="both">
+                            Both
+                        </label>
+                        <input type="radio" name="running-preference" id="both" value="both">
+                    </div>
+                </div>
+                <br>
+                <button type="submit" class="join-button">
+                    Let's Run!
+                </button>
+            </form>
+        </section>
     </main>
     <footer>
         <ul id="social-networks">
